@@ -5,10 +5,11 @@
 - Install deno `curl -fsSL https://deno.land/x/install/install.sh | sh`
 
 ## Run
+- Prepare data `make ip-setup`
 - To run application `make ip-web`
-- To run tests `make ip-curl`
+- To run tests `make ip-benchmark`
 
 ## Benchmakrs
 - `/refresh` 0.877s
-- `/ips` 0.00093s
+- `/ips` 0.00084s
 - `memory` n/a
