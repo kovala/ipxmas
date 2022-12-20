@@ -1,3 +1,5 @@
+ip-setup:
+	cd .data && 7z x ips.7z
 ip-run:
 	cargo build --release
 	time ./target/release/ipxmas ip

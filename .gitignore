@@ -14,5 +14,5 @@ Cargo.lock
 
 /target
 .idea
-
+.data/ips.csv
 
